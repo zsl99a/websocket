@@ -1,0 +1,14 @@
+# 行宽设置
+max_width = 160
+
+# 换行样式
+newline_style = "Unix"
+
+# 启用导入重排序
+reorder_imports = true
+
+# 启用派生宏合并
+merge_derives = true
+
+# 缩进空格数
+tab_spaces = 4

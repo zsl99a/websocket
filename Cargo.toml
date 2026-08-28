@@ -2,6 +2,12 @@
 name = "websocket"
 version = "0.1.0"
 edition = "2024"
+authors = ["zsl99a <zsl99a@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/zsl99a/websocket"
+description = "基于 Rust 与 Tokio 的企业级高可靠异步 WebSocket 客户端框架，支持指数退避重连、心跳保活、事件总线与消息类型路由"
+keywords = ["websocket", "tokio", "async", "tungstenite", "client"]
+categories = ["network-programming", "asynchronous", "web-programming::websocket"]
 
 [dependencies]
 anyhow = "1"

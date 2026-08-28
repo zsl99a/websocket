@@ -201,6 +201,11 @@ impl WebSocketClient {
         &self.event_bus
     }
 
+    /// 获取客户端配置
+    pub fn config(&self) -> &ClientConfig {
+        &self.config
+    }
+
     /// 启动消息循环
     async fn start_message_loop(&self, ws_stream: WsStream) -> WebSocketResult<()> {
         let (mut ws_sink, mut ws_stream) = ws_stream.split();
